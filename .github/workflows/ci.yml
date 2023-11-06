@@ -1,9 +1,9 @@
 name: Testing
-onn: push
+on: push
 
 jobs:
   test_project:
-    runs_on: ubuntu-lastest
+    runs-on: ubuntu-lastest
     steps:
     - uses: actions/checkout@v2
     - name: Run Django unit tests
